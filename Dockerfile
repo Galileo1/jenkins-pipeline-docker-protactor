@@ -18,5 +18,5 @@ ADD protractor.sh /protractor.sh
 # https://github.com/SeleniumHQ/docker-selenium/issues/87
 ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
 WORKDIR /protractor
-RUN ["chmod", "+x", "/protractor.sh"]
+RUN ["chmod", "+x", "/protractor"]
 ENTRYPOINT ["sh","/protractor.sh"]
