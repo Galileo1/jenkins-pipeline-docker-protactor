@@ -19,4 +19,4 @@ ADD protractor.sh /protractor.sh
 ENV DBUS_SESSION_BUS_ADDRESS=/dev/null
 WORKDIR /protractor
 RUN ["chmod", "+x", "/protractor"]
-ENTRYPOINT ["sh","/protractor.sh"]
+# ENTRYPOINT ["sh","/protractor.sh"]
